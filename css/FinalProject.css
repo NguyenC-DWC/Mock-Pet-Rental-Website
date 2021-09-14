@@ -1,0 +1,70 @@
+#container
+{
+	padding-bottom:20px;
+	background-color:#ffcc99;
+	box-shadow:0px 0px 8px rgba(0,0,0,0.3);
+	font: italic 15px/30px Georgia, serif;
+	width:800px;
+}
+
+p
+{
+	color:white;
+	background-color:darkred;
+	font-weight:bold;
+	margin:0px;
+	text-align:center;
+}
+
+#petSelection img
+{
+	cursor:pointer;
+	height: 100px;
+	opacity: .6;
+	margin: 10px;
+	border: 3px ridge black;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#displayImage
+{
+	margin:15px;
+	height: 200px;
+	width: 200px;
+	background-color:black;
+	border: 5px ridge black;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#petLabel
+{
+	margin:15px;
+	font-size:30px;
+}
+
+#gender, #love
+{
+	width:30px;
+	height:30px;
+}
+
+form
+{
+	margin:15px;
+}
+
+input, label
+{
+	margin:5px;
+}
+
+label.error
+{
+	color:red;
+}
+
+input.error
+{
+	background-color:#FFDDDD;
+	color:darkred;
+}
